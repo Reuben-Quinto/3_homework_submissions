@@ -1,0 +1,70 @@
+Whats up you guys my name is Reuben and thank you for making it out today... Like you had a choice
+
+	I'm here accompanied with my Team: Carla, Mariana, and Andy.
+
+	Today we will analyze a company that really needs no introduction.
+
+* Next slide *
+
+Dispite Tesla's popularity it is well known that the company as a business is burning cash like its nobody's business.
+
+	Production issues, 
+
+	profitiability issues, 
+	
+	and technology issues.
+
+* Next slide *
+
+This is a graph pulled by Yahoo Finance. 
+
+	The blue line the S&P500 and the red line is Tesla Motors.
+
+	What this says is if you bought a piece of Tesla 5 years ago, you would have recognized a 240% return on your investment, today
+
+	What it also says... is that the market thinks that Tesla Motors more valuable than the average company...
+
+But wait minute... didn't we just say Tesla Motors is burning cash like its nobodys business? 
+
+* Next slide *
+	
+	Those are two contradictory ideas.
+
+	How is it that a company, which is not making any money, is outperforming the market average by 170 percent?
+
+* Next slide *
+
+Isnt that interesting?
+
+	It is this contradiction is why we chose to look at this company... so lets look at the data
+
+* Next slide *
+
+So here is our data sources:
+
+	We want to see how the company is performing on the books; so we extracted 10-Q's which are are mandatory quarterly financial statements enforced by the law.
+
+	We looked at the market sentiment, by downloading closing prices from Yahoo Finance.
+
+	And finally we looked at public sentiment, by extracting relevant twitter activity using Vader.
+
+The first data set you'll be looking at are Earnings and market reaction:
+
+	Operating income is simply revenue minus expenses; before interest and taxes. 
+
+		This will 'tell' you how profits business really is.
+
+			In this case it is not; Of 9 observations, over two years, it only saw 1 profitable quarter.
+
+			Market reaction to the release public data seems to have no real relationship.
+
+	CF From Operations is simply how the comapny is using cold hard cash.
+
+		This will tell you if they really are burning through cash.
+
+		and of 9 observations, a little over two years they burned cash 6
+
+
+	We want to look at financials primarily because we want to get our head around this company before we even think about owning it's stock
+
+
