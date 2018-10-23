@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- Set the page width to the size of the device and set zoom level to 1 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Use the latest meta engine telling internet explorer to use the latest rendering engine-->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	
+    <!-- Link to bootstrap's CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+<div class="row" style="border-bottom: 1px solid black">
+    <div class="navbar-header" >
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <div class="col-xs-12 phone-nav">
+            <a class="navbar-brand" href="#" id="logo">Weather Assignment</a>
+        </div>
+
+    </div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="visualizations/temp.html">Max Temperature</a></li>
+                <li><a href="visualizations/humidity.html">Humidity</a></li>
+                <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
+                <li><a href="visualizations/wind.html">Wind Speed</a></li>
+            </ul>
+            </li>
+        </ul>
+</div>    
+</div>
+
+<div class="container">
+
+    <div class="page-header">
+        <h1>Bootstrap Homework</h1>
+    </div>
+
+        <div class="jumbotron">
+            <h3 class="description-header">Assignment Scope:</h3>
+            <hr> 
+            <p>The focus of this assignment is to create a website for an assignment we did in the past "WeatherAPI."</p>
+        </div>
+
+        <div class="jumbotron">
+            <h3 class="description-header"> Visualizations</h3>
+            <hr>
+            <ul>
+                <li><a href="visualizations/cloudiness.html"> Lat vs cloudiness</a></li>
+                <li><a href="visualizations/humidity.html"> Lat vs humidity</a></li>
+                <li><a href="visualizations/maxtemp.html"> Lat vs temp</a></li>
+                <li><a href="visualizations/windspeed.html"> Lat vs windspeed</a></li>
+            </ul>
+        </div>
+
+</div>
+
+
+</body>
+</html>
